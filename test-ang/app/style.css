@@ -1,0 +1,6 @@
+.lefty:{
+  float: left;
+}
+th:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+  /*  childOnLoad = function () {
+      alert('msg');
+    }*/
+  </script>
+
+</head>
+
+<body ng-app = "myApp" >
+  <nesty-spinner> </nesty-spinner>
+  <table ng-controller="albumsController" >
+    <th ng-click="sortDate()">
+      Date
+    </th>
+    <th ng-click="sortName()">
+      Name
+    </th>
+    <th ng-click="sortAlbum()">
+       Album title
+    </th>
+    <th >
+       Album cover
+    </th>
+
+    <tr ng-repeat="item in records">
+      <td ng-repeat="(key, value) in item" class={{key}}>
+        {{
+
+          key.toString().search('cover') == -1 ? value : ''
+        }}
+      </td>
+
+    </tr>
+
+  </table>
+</body>
+</html>
