@@ -3,11 +3,11 @@
 
 This is the full test project
 
-# Installation
+# installation
 ```bash
 cd test-ang
 npm install
 npm start
 ```
 
-Then go to [http://localhost:8080](http://localhost:8080) in your browser. Thank you 
+Then go to [http://localhost:8080](http://localhost:8080) in your browser. Thank you
