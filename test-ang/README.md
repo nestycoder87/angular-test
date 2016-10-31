@@ -3,7 +3,7 @@
 
 This is the full test project.
 
-# Installation
+# installation
 ```bash
 cd test-ang
 npm install
