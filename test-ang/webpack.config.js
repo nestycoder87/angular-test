@@ -1,10 +1,15 @@
 module.exports = {
-  context: __dirname + '/app',
-  entry: './index.js',
+
+  entry: './app/index.js',
   output: {
-    path:  __dirname + '/app',
+     path: __dirname + '/',
+     contentBase: __dirname,
     publicPath: "",
     filename: 'bundle.js'
   },
+  devServer: {
+        inline: true,
+        port: 8080
+    }
 
 }
