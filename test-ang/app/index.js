@@ -7,9 +7,11 @@ appp.directive('nestySpinner', function () {
   }
 })
 
+
 appp.controller('FirstController', ['$scope', function($scope) {
   $scope.greeting = 'Hola!';
 }]);
+
 appp.controller('bodyController', ['$scope', function($scope) {
 
   $scope.$on('$viewContentLoaded', function(){
@@ -22,13 +24,14 @@ appp.controller('bodyController', ['$scope', function($scope) {
 
   });
 }]);
-
+ 
 appp.controller("albumsController", function($scope) {
 //  alert('msg');
+
   $scope.records = [
     {  date: "1/10/2012", name: "Alfreds Futterkiste", title:"aNever Gone", cover:"se"},
     {  date: "12/10/2012", name:"Fernand Snabbköp", title:"se", cover:"bNever Gone"},
-    {  date: "11/10/2012", name:"Zentro Comercial Moctezuma", title:"cNever Gone", cover:"se"},
+    {  date: "11/10/2012", name:"Zentroop Comercial Moctezuma", title:"cNever Gone", cover:"se"},
     {  date: "8/10/2012", name:"Ernst Handel", title:"dNever Gone", cover:"se"},
     {  date: "8/10/2012", name:"Ernst Handel", title:"dNever Gone", cover:"se"},
     {  date: "8/10/2012", name:"Ernst Handel", title:"dNever Gone", cover:"se"},
