@@ -13,4 +13,4 @@ var jsFiles = 'app/index.js',
             .pipe(rename('scripts.min.js'))
             .pipe(uglify())
             .pipe(gulp.dest(jsDest));
-    });
+    }); 
