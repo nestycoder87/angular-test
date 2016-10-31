@@ -1,7 +1,7 @@
 # angular-test
 
 
-This is the full test project
+This is the full test project.
 
 # installation
 ```bash
