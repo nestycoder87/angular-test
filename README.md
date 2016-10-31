@@ -7,8 +7,7 @@ This is the full test project
 ```bash
 cd test-ang
 npm install
-gulp scripts
-npm start
+gulp
 ```
 Then go to [http://localhost:8080](http://localhost:8080) in your browser. Thank you 
 
